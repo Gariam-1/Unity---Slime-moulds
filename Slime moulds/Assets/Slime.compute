@@ -1,0 +1,145 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+struct Agent{
+    min16float2 position;
+    min16float angle;
+	min16float colorIndex;
+};
+
+StructuredBuffer<Agent> agentsRead;
+RWStructuredBuffer<Agent> agentsWrite;
+RWTexture2D<min10float4> TrailMap;
+uint2 resolution;
+float3 time; //x = time, y = frametime
+uint numAgents;
+min16float randomSeed;
+min16float3 speed; //x = speed, y = dissolve speed, z = diffuse rate
+min16float3 sensor; //x = angle, y = distance, z = size
+min16float2 turn; //x = turn rate, y = turn random
+min16float3 mouse; //xy = position, z = clicked
+min16float3 colors[256];
+min16float hueShift;
+#define PI 3.1415926536
+
+min16float hash14(min16float4 p4){
+	p4 = frac(p4 * min16float4(0.1031, 0.1030, 0.0973, 0.1099));
+    p4 += dot(p4, p4.wzxy + 33.33);
+    return frac((p4.x + p4.y) * (p4.z + p4.w));
+}
+
+min10float3 hue(min10float3 color, min10float shift) {
+	const min16float3 k = min10float3(0.57735, 0.57735, 0.57735);
+	const min16float cosAngle = cos(shift);
+	return color * cosAngle + cross(k, color) * sin(shift) + k * dot(k, color) * (1.0 - cosAngle);
+}
+
+min10float3 colorPerception(min10float3 color) {
+    const min16float luma = dot(normalize(color), min10float3(0.2126, 0.7152, 0.0722));
+    return color * (1.0 - luma + 1.0);
+}
+
+min16float sense(Agent agent, min16float sensorAngleOffset)
+{
+    const min16float sensorAngle = agent.angle + sensorAngleOffset;
+	const min16float2 sensorDir = min16float2(cos(sensorAngle), sin(sensorAngle));
+    const min16float2 sensorPos = agent.position + sensorDir * sensor.y;
+
+    min16float sum = randomSeed * 2.0 - 1.0, value;
+	min16int2 samples;
+
+    for (min16int offsetX = -sensor.z; offsetX <= sensor.z; offsetX += 2) {
+		for (min16int offsetY = -sensor.z; offsetY <= sensor.z; offsetY += 2) {
+			samples = clamp((min16int2)sensorPos + min16int2(offsetX, offsetY) + min16int2(offsetX, offsetY), 0, resolution - 1);
+			sum += dot(colors[agent.colorIndex] * 2.0 - 1.0, TrailMap[samples].rgb);
+		}
+	}
+	return sum;
+}
+
+[numthreads(128,1,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    if (id.x >= numAgents) return;
+	Agent agent = agentsRead[id.x];
+	const min16float2 oldPos = agent.position;
+    const min16float random = hash14(min16float4(agent.position, time.x, randomSeed));
+
+	const min16float senseForward = sense(agent, 0);
+	const min16float senseLeft = sense(agent, sensor.x);
+	const min16float senseRight = sense(agent, -sensor.x);
+
+	agent.angle += (random - 0.5) * senseForward * turn.y * time.y * 60.0 * step(max(abs(senseLeft), abs(senseRight)), abs(senseForward)); //turn randomly when going straight
+	agent.angle += (senseLeft - senseRight) * (turn.x + turn.x) * time.y; //turn left or right
+	min16float2 direction = min16float2(cos(agent.angle), sin(agent.angle)); //calculate direction
+	agent.position += direction * speed.x * time.y; //move position along direction
+
+	//handle cursor interaction
+	if (abs(mouse.z) > 0.5){
+		const min16float2 mouseOffset = (mouse.xy - agent.position) / resolution.x;
+		const min16float distanceFromCursor = dot(mouseOffset, mouseOffset);
+		const min16float isNotHeld = step(0.0005 * step(mouse.z, 0.0), distanceFromCursor); //if the agent is close to the cursor and if it's attracted to it
+		const min16float mouseFalloffStrength = saturate(-log10(distanceFromCursor * 150.0)) * 600.0 * mouse.z * isNotHeld; //cursor area of influence
+
+		agent.position -= mouseOffset * mouseFalloffStrength + mouseOffset * resolution.x * (1.0 - isNotHeld) * step(0.01, mouse.z); //move away or towards the cursor
+		direction = normalize(direction - normalize(mouseOffset) * mouseFalloffStrength); //update direction with mouse influence
+	}
+	
+	const min16float2 normal = normalize(step(agent.position, 0.0) - step(resolution, agent.position)); //compute normal vector of the closest border
+	if (dot(normal, normal) > 0.0) direction = reflect(direction, normalize(normal)); //reflect direction when agent position is negative or bigger than resolution
+
+	agent.position = clamp(agent.position, 0.001, resolution - 0.001); //clamp position inside the screen
+    agent.angle = atan2(direction.y, direction.x); //update angle
+
+	agentsWrite[id.x] = agent;
+	const min10float4 finalColor = min10float4(colorPerception(hue(colors[agent.colorIndex], hueShift)), 1.0);
+	
+	//color the new position and the space between this and the last frame, to account for low framerate
+	TrailMap[agent.position - (agent.position - oldPos) * 0.667] = finalColor;
+	TrailMap[agent.position - (agent.position - oldPos) * 0.333] = finalColor;
+	TrailMap[agent.position] = finalColor;
+}
+
+#pragma kernel DissolveX
+
+RWTexture2D<min10float4> DissolveMap;
+#define kernel 2
+
+[numthreads(8,8,1)]
+void DissolveX (uint3 id : SV_DispatchThreadID)
+{
+	const min16float2 condition = step(id.xy, 0.0) + step(resolution, resolution - id.xy);
+    if (condition.x + condition.y >= 1.0) return;
+
+    min16float3 sum = 0.0;
+	min16int2 samples;
+	
+	for (min16int offsetX = -kernel; offsetX <= kernel; offsetX++) {
+		samples = clamp(id.xy + min16int2(offsetX, 0), 0, resolution - 1);
+		sum += TrailMap[samples].rgb;
+	}
+
+    DissolveMap[id.xy] = min10float4(sum / (kernel + kernel + 1), 1.0);
+}
+
+#pragma kernel DissolveY
+
+[numthreads(8,8,1)]
+void DissolveY (uint3 id : SV_DispatchThreadID)
+{
+	const min16float2 condition = step(id.xy, 0.0) + step(resolution, resolution - id.xy);
+    if (condition.x + condition.y >= 1.0) return;
+
+    min16float3 sum = 0.0;
+    const min10float3 originalCol = TrailMap[id.xy].rgb;
+	min16int2 samples;
+	
+	for (min16int offsetY = -kernel; offsetY <= kernel; offsetY++) {
+		samples = clamp(id.xy + min16int2(0, offsetY), 0, resolution - 1);
+		sum += TrailMap[samples].rgb;
+	}
+
+	min10float3 blurredCol = lerp(originalCol, (sum / (kernel + kernel + 1) + DissolveMap[id.xy].rgb) * 0.5, speed.z * time.y) - speed.y * time.y;
+
+    DissolveMap[id.xy] = min10float4(max(0.0, blurredCol), 1.0);
+}
