@@ -1,0 +1,938 @@
+Base path: 'D:/Unity/2022.3.35f1/Editor/Data', plugins path 'D:/Unity/2022.3.35f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=5661 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5661 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5661 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7029
+
+Cmd: compileComputeKernel
+  insize=5663 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5663 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5663 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7029
+
+Cmd: compileComputeKernel
+  insize=5699 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(22): 'colors': implicit array missing initial value
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5699 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(22): 'colors': implicit array missing initial value
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5699 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(22): 'colors': implicit array missing initial value
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5738 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(8): unrecognized identifier 'short'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5738 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(8): unrecognized identifier 'short'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5738 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(8): unrecognized identifier 'short'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5741 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(8): unrecognized identifier 'uint16_t'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5741 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(8): unrecognized identifier 'uint16_t'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5741 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(8): unrecognized identifier 'uint16_t'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5761 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(3): syntax error: unexpected token '-'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5761 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(3): syntax error: unexpected token '-'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5761 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(3): syntax error: unexpected token '-'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5757 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(3): syntax error: unexpected token '-'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5757 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(3): syntax error: unexpected token '-'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5757 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(3): syntax error: unexpected token '-'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5737 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(22): 'colors': implicit array missing initial value
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5737 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(22): 'colors': implicit array missing initial value
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5737 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(22): 'colors': implicit array missing initial value
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5738 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5738 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5738 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7051
+
+Cmd: compileComputeKernel
+  insize=5740 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(55): 'dot': implicit truncation of vector type
+  error: 1 plat 4 at Slime.compute(98): 'hue': implicit truncation of vector type
+ ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5740 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(55): 'dot': implicit truncation of vector type
+  error: 1 plat 4 at Slime.compute(98): 'hue': implicit truncation of vector type
+ ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5740 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(55): 'dot': implicit truncation of vector type
+  error: 1 plat 4 at Slime.compute(98): 'hue': implicit truncation of vector type
+ ok=1 outsize=7051
+
+Cmd: compileComputeKernel
+  insize=5740 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5740 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5740 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7051
+
+Cmd: compileComputeKernel
+  insize=5733 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5733 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5733 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7051
+
+Cmd: compileComputeKernel
+  insize=5732 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5732 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5732 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7051
+
+Cmd: compileComputeKernel
+  insize=5744 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5705 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5713 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5713 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5713 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7029
+
+Cmd: compileComputeKernel
+  insize=5709 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(55): invalid subscript 'color'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5709 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(55): invalid subscript 'color'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5709 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(55): invalid subscript 'color'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5752 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5752 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5752 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7051
+
+Cmd: compileComputeKernel
+  insize=5715 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(136): unrecognized identifier 'hlaf3'
+  error: 2 plat 4 at Slime.compute(136): unrecognized identifier 'sum'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5715 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(136): unrecognized identifier 'hlaf3'
+  error: 2 plat 4 at Slime.compute(136): unrecognized identifier 'sum'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5715 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(136): unrecognized identifier 'hlaf3'
+  error: 2 plat 4 at Slime.compute(136): unrecognized identifier 'sum'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5715 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5715 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5715 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7051
+
+Cmd: compileComputeKernel
+  insize=5761 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5761 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5761 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7051
+
+Cmd: compileComputeKernel
+  insize=5797 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5799 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5799 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5799 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7079
+
+Cmd: compileComputeKernel
+  insize=5801 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5745 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5701 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5701 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5701 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7029
+
+Cmd: compileComputeKernel
+  insize=5699 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5699 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5699 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7029
+
+Cmd: compileComputeKernel
+  insize=5789 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=536887297 forceDXC=4294967295 forceFXC=0 ok=1 outsize=2836
+
+Cmd: compileComputeKernel
+  insize=5789 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=536887297 forceDXC=4294967295 forceFXC=0 ok=1 outsize=2463
+
+Cmd: compileComputeKernel
+  insize=5789 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=536887297 forceDXC=4294967295 forceFXC=0 ok=1 outsize=6223
+
+Cmd: compileComputeKernel
+  insize=5761 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=4294967295 forceFXC=0 ok=1 outsize=2840
+
+Cmd: compileComputeKernel
+  insize=5761 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=4294967295 forceFXC=0 ok=1 outsize=2467
+
+Cmd: compileComputeKernel
+  insize=5761 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=4294967295 forceFXC=0 ok=1 outsize=5983
+
+Cmd: compileComputeKernel
+  insize=5757 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(73): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(74): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(93): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5757 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(73): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(74): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(93): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5757 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(73): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(74): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(93): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=7251
+
+Cmd: compileComputeKernel
+  insize=5756 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(73): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(74): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(93): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5756 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(73): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(74): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(93): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5756 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(73): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(74): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(93): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=7251
+
+Cmd: compileComputeKernel
+  insize=5691 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5691 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5691 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7051
+
+Cmd: compileComputeKernel
+  insize=5747 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5747 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5747 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7051
+
+Cmd: compileComputeKernel
+  insize=5715 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5715 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5715 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7011
+
+Cmd: compileComputeKernel
+  insize=5777 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5777 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5777 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7031
+
+Cmd: compileComputeKernel
+  insize=5789 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5791 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5691 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5691 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5691 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7051
+
+Cmd: compileComputeKernel
+  insize=5682 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5682 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5682 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7051
+
+Cmd: compileComputeKernel
+  insize=5697 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(7): unrecognized identifier 'vec3'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5697 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(7): unrecognized identifier 'vec3'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5697 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(7): unrecognized identifier 'vec3'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5698 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5698 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5698 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7029
+
+Cmd: compileComputeKernel
+  insize=5641 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5641 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1532
+
+Cmd: compileComputeKernel
+  insize=5641 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1183
+
+Cmd: compileComputeKernel
+  insize=5641 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=6827
+
+Cmd: compileComputeKernel
+  insize=5977 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(51): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(52): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(112): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(131): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1644
+
+Cmd: compileComputeKernel
+  insize=5965 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(51): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(52): conversion from larger type to smaller, possible loss of data
+  error: 2 plat 4 at Slime.compute(54): 'dot': no matching 2 parameter intrinsic function; Possible intrinsic functions are: dot(floatM|halfM|doubleM|min10floatM|min16floatM|intM|uintM|min12intM|min16intM|min16uintM, floatM|halfM|doubleM|min10floatM|min16floatM|intM|uintM|min12intM|min16intM|min16uintM)
+  error: 2 plat 4 at Slime.compute(54): invalid subscript 'rgb'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5965 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(51): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(52): conversion from larger type to smaller, possible loss of data
+  error: 2 plat 4 at Slime.compute(54): 'dot': no matching 2 parameter intrinsic function; Possible intrinsic functions are: dot(floatM|halfM|doubleM|min10floatM|min16floatM|intM|uintM|min12intM|min16intM|min16uintM, floatM|halfM|doubleM|min10floatM|min16floatM|intM|uintM|min12intM|min16intM|min16uintM)
+  error: 2 plat 4 at Slime.compute(54): invalid subscript 'rgb'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5965 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(51): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(52): conversion from larger type to smaller, possible loss of data
+  error: 2 plat 4 at Slime.compute(54): 'dot': no matching 2 parameter intrinsic function; Possible intrinsic functions are: dot(floatM|halfM|doubleM|min10floatM|min16floatM|intM|uintM|min12intM|min16intM|min16uintM, floatM|halfM|doubleM|min10floatM|min16floatM|intM|uintM|min12intM|min16intM|min16uintM)
+  error: 2 plat 4 at Slime.compute(54): invalid subscript 'rgb'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5965 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(51): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(52): conversion from larger type to smaller, possible loss of data
+  error: 2 plat 4 at Slime.compute(54): 'dot': no matching 2 parameter intrinsic function; Possible intrinsic functions are: dot(floatM|halfM|doubleM|min10floatM|min16floatM|intM|uintM|min12intM|min16intM|min16uintM, floatM|halfM|doubleM|min10floatM|min16floatM|intM|uintM|min12intM|min16intM|min16uintM)
+  error: 2 plat 4 at Slime.compute(54): invalid subscript 'rgb'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5967 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(51): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(52): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(54): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(112): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(120): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(131): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(135): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(140): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(143): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1608
+
+Cmd: compileComputeKernel
+  insize=5967 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(51): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(52): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(54): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(112): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(120): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(131): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(135): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(140): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(143): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1239
+
+Cmd: compileComputeKernel
+  insize=5967 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(51): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(52): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(54): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(112): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(120): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(131): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(135): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(140): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(143): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=8231
+
+Cmd: compileComputeKernel
+  insize=5977 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(51): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(52): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(99): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(100): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(101): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(112): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(123): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(131): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(145): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1644
+
+Cmd: compileComputeKernel
+  insize=5977 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(51): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(52): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(99): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(100): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(101): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(112): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(123): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(131): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(145): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1227
+
+Cmd: compileComputeKernel
+  insize=5977 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(51): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(52): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(99): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(100): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(101): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(112): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(123): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(131): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(145): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=8219
+
+Cmd: compileComputeKernel
+  insize=6057 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 26 at (0): Unknown parameter type (57) for resolution
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(99): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(100): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(101): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(112): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(119): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(123): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(131): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(139): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(145): conversion from larger type to smaller, possible loss of data
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=6057 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 26 at (0): Unknown parameter type (57) for resolution
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(99): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(100): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(101): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(112): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(119): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(123): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(131): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(139): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(145): conversion from larger type to smaller, possible loss of data
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=6057 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 26 at (0): Unknown parameter type (57) for numAgents
+  error: 2 plat 26 at (0): Unknown parameter type (57) for resolution
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(99): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(100): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(101): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(112): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(119): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(123): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(131): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(139): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(145): conversion from larger type to smaller, possible loss of data
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5939 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 26 at (0): Unknown parameter type (57) for resolution
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5939 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 26 at (0): Unknown parameter type (57) for resolution
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5939 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 26 at (0): Unknown parameter type (57) for numAgents
+  error: 2 plat 26 at (0): Unknown parameter type (57) for resolution
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5939 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 26 at (0): Unknown parameter type (57) for resolution
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5939 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 26 at (0): Unknown parameter type (57) for resolution
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5939 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 26 at (0): Unknown parameter type (57) for numAgents
+  error: 2 plat 26 at (0): Unknown parameter type (57) for resolution
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5937 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 26 at (0): Unknown parameter type (56) for resolution
+  error: 1 plat 4 at Slime.compute(63): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5937 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 26 at (0): Unknown parameter type (56) for resolution
+  error: 1 plat 4 at Slime.compute(63): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5937 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 26 at (0): Unknown parameter type (56) for numAgents
+  error: 2 plat 26 at (0): Unknown parameter type (56) for resolution
+  error: 1 plat 4 at Slime.compute(63): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5929 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(53): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1676
+
+Cmd: compileComputeKernel
+  insize=5929 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(53): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1251
+
+Cmd: compileComputeKernel
+  insize=5929 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(53): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=8451
+
+Cmd: compileComputeKernel
+  insize=5922 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(7): unrecognized identifier 'min10int'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5922 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(7): unrecognized identifier 'min10int'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5922 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(7): unrecognized identifier 'min10int'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5923 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(7): unrecognized identifier 'min10uint'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5923 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(7): unrecognized identifier 'min10uint'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5923 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(7): unrecognized identifier 'min10uint'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5922 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(7): unrecognized identifier 'min10int'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5922 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(7): unrecognized identifier 'min10int'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5922 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 4 at Slime.compute(7): unrecognized identifier 'min10int'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5923 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 26 at (0): Unknown parameter type (53) for speed
+  error: 1 plat 4 at Slime.compute(34): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(39): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(53): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(72): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(73): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(75): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5923 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(34): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(39): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(53): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(72): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(73): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(75): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1251
+
+Cmd: compileComputeKernel
+  insize=5923 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 2 plat 26 at (0): Unknown parameter type (53) for colors
+  error: 2 plat 26 at (0): Unknown parameter type (53) for hueShift
+  error: 2 plat 26 at (0): Unknown parameter type (53) for speed
+  error: 2 plat 26 at (0): Unknown parameter type (53) for turn
+  error: 1 plat 4 at Slime.compute(34): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(39): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(53): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(72): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(73): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(75): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5923 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(34): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(39): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(53): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(72): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(73): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(75): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(95): 'hue': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1636
+
+Cmd: compileComputeKernel
+  insize=5923 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(34): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(39): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(53): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(72): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(73): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(75): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(95): 'hue': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1251
+
+Cmd: compileComputeKernel
+  insize=5923 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(34): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(39): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(53): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(72): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(73): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(75): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(95): 'hue': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=8527
+
+Cmd: compileComputeKernel
+  insize=5922 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(34): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(39): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(53): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(72): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(73): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(75): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(95): 'hue': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1636
+
+Cmd: compileComputeKernel
+  insize=5922 file=Assets/Slime.compute kernel=DissolveX ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(34): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(39): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(53): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(72): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(73): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(75): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(95): 'hue': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1251
+
+Cmd: compileComputeKernel
+  insize=5922 file=Assets/Slime.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(34): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(39): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(53): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(72): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(73): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(75): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(95): 'hue': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=8527
+
+Cmd: compileComputeKernel
+  insize=5924 file=Assets/Slime.compute kernel=DissolveY ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202239> pKW=UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at Slime.compute(34): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(39): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(53): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(72): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(73): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(75): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(79): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(84): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(88): 'step': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(91): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(95): 'hue': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(111): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(118): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(130): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(138): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Slime.compute(142): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=1636
+
+Cmd: shutdown
